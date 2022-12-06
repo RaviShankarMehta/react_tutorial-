@@ -16,6 +16,11 @@ import ConstructorLifeCycleMehtodClassComp from './ConstructorLifeCycleMehtodCla
 import RenderLifeCycleMethodClassComp from './RenderLifeCycleMehtodClassComp';
 import ComponentDidMount from './ComponentDidMount'
 import ComponentDidUpdate from './ComponentDidUpdate'
+import ShouldComponentUpdate from './ShoudComponentUpdate';
+import ComponentWillUnmountParent from './ComponentWillUnmountParent';
+import UseEffect from './UseEffect';
+import UseEffectWithStateAndProps from './UseEffectWithStateAndProps'
+import ArrayListUsingMapFun from './ArraylistUsingMapFun';
 function App() {
   // const [name,setName]=useState("Ravi")
 
@@ -64,7 +69,18 @@ function App() {
 
     {/* <ComponentDidMount/> */}
 
-    <ComponentDidUpdate />
+    {/* <ComponentDidUpdate /> */}
+
+    {/* <ShouldComponentUpdate/> */}
+
+    {/* <ComponentWillUnmountParent/> */}
+
+    {/* React hooks */}
+    {/* <UseEffect/> */}
+
+    {/* <UseEffectWithStateAndProps /> */}
+
+    <ArrayListUsingMapFun/>
     </div>
   );
 }
