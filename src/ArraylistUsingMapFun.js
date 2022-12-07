@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Table} from 'react-bootstrap' 
 function ArrayListUsingMapFun() {
   // const Student = ["Ravi","Nikhil","Yogesh","Rahul"]
 
@@ -28,10 +28,7 @@ function ArrayListUsingMapFun() {
              {   
              <h1>{Student[i]}</h1>
              } */}
-      <table
-        style={{ alignItems: "center", alignContent: "center", color: "red" }}
-        border={10}
-      >
+      <Table striped hover variant="dark">
         <tbody>
           <tr>
             <td>name</td>
@@ -47,7 +44,7 @@ function ArrayListUsingMapFun() {
             </tr>
           ))}
         </tbody>
-      </table>
+      </Table>
     </div>
   );
 }
