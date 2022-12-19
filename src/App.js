@@ -35,6 +35,14 @@ import UncontrolledComp from "./youtubeTutorialPratices/UncontrolledComp";
 import HigherOrderFunction from "./youtubeTutorialPratices/HigherOrderFunction";
 import ReactRouterDom from "./component/ReactRouterDom";
 import Filter from "./component/Filter";
+import GetMethod from "./fetchApi/GetMethod";
+import PostMethod from "./fetchApi/PostMehtod";
+import DeleteMehtod from "./fetchApi/DeleteMethod";
+import UpdateMehtod from "./fetchApi/UpdateMehtod";
+import PreviousState from "./youtubeTutorialPratices/PreviousState";
+import PreviousProps from "./youtubeTutorialPratices/PreviousProps";
+import StateWithObject from "./youtubeTutorialPratices/StateWithObject";
+import Home from "./redux/container/HomeContainer";
 function App() {
   // const [name,setName]=useState("Ravi")
 
@@ -119,11 +127,24 @@ function App() {
 
 
     {/* React Router Dom */}
-    <ReactRouterDom/>
+    {/* <ReactRouterDom/> */}
     {/* <Filter/> */}
 
+
+    {/* fetch Apt */}
+    {/* <GetMethod/> */}
+    {/* <PostMethod/> */}
+    {/* <DeleteMehtod/> */}
+    {/* <UpdateMehtod/> */}
+
+    {/* <PreviousState/> */}
+
+    {/* <PreviousProps/> */}
+
+    {/* <StateWithObject/> */}
+    <Home/>
     </div>
-  );
+      );
 }
 
 export default App;
